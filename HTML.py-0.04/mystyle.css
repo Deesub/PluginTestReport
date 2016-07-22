@@ -1,0 +1,26 @@
+h1 {
+    color:black;
+}
+h2{
+    color:blue;
+    }
+p {
+    color : blue; 
+    display : inline-block;
+    width: 30%;
+}
+p2{
+    color : red;
+}
+p2pass{
+    color : green;
+}
+p2skip{
+    color : yellow;
+}
+p3{
+    color : #906321;
+}
+p4{
+    color : blue
+}

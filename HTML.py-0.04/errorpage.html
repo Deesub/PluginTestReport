@@ -1,0 +1,1138 @@
+<a name="erring"></a><a name="go"></a><h2> ENHANCED RESULTS ON ERROR SUBTESTS </h2><TABLE cellpadding="4" width="60%" style="['margin-left:50%;', 'margin-right:50%;', 'margin-right:50%;']" border="1" id="pagetbl">
+ <TR>
+  <TH>Serial Number of failed test</TH>
+  <TH>Error Message</TH>
+  <TH>Shortcut Links</TH>
+ </TR>
+ <TR>
+  <TD>1</TD>
+  <TD style="background-color:red;">--> 20:37:07: ERROR: A Display Connectivity message was not transmitted over CAN</TD>
+  <TD><html><body><a href="#testshortcut1">1</a></body></html></TD>
+ </TR>
+ <TR>
+  <TD>2</TD>
+  <TD style="background-color:red;">--> 20:39:09: ERROR: A Display Connectivity message was not transmitted over CAN</TD>
+  <TD><html><body><a href="#testshortcut2">2</a></body></html></TD>
+ </TR>
+ <TR>
+  <TD>3</TD>
+  <TD style="background-color:red;">--> 20:41:11: ERROR: A Display Connectivity message was not transmitted over CAN</TD>
+  <TD><html><body><a href="#testshortcut3">3</a></body></html></TD>
+ </TR>
+ <TR>
+  <TD>4</TD>
+  <TD style="background-color:red;">--> 20:41:42: ERROR: A Display Connectivity message was not transmitted over CAN</TD>
+  <TD><html><body><a href="#testshortcut4">4</a></body></html></TD>
+ </TR>
+ <TR>
+  <TD>5</TD>
+  <TD style="background-color:red;">--> 20:42:43: ERROR: A Display Connectivity message was not transmitted over CAN</TD>
+  <TD><html><body><a href="#testshortcut5">5</a></body></html></TD>
+ </TR>
+ <TR>
+  <TD>6</TD>
+  <TD style="background-color:red;">--> 21:09:14:    ERROR: Max.Air.Filter.Pressure[field #1] ExpectAlmostEqual in Tests.BaseClasses.DataloggerTestBase, line 173 failed; Expected: 0.55, Actual: 0.5, Tolerance: 0.0. --> 21:09:14:    ERROR: Verification failed for 1 of 208 checked data fields</TD>
+  <TD><html><body><a href="#testshortcut6">6</a></body></html></TD>
+ </TR>
+</TABLE><br><br><a href="#bop">If you don't want to see extended logs,go to the bottom</a><script src="myscript.js"></script>
+<script>
+	mypagefunction();
+</script><br><br><head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head><br><br><p4>THE EXTENDED LOG FOR ERROR TEST </p4><p4>1</p4><p4> IS : </p4><br><a name="testshortcut1"></a><a href="#">Go to top of page</a><br> 
+          
+Running SubTest #1: Select Channel A Network And Verify Transmission Over CAN ...
+
+<br>  20:35:05: Selecting the first network(channel A) and verifing the correct frequency transmission over CAN ...
+
+<br>  20:37:07: ERROR: A Display Connectivity message was not transmitted over CAN
+        
+<br><br><br><p4>THE EXTENDED LOG FOR ERROR TEST </p4><p4>2</p4><p4> IS : </p4><br><a name="testshortcut2"></a><a href="#">Go to top of page</a><br> 
+          
+Running SubTest #2: Select Channel B Network And Verify Transmission Over CAN ...
+
+<br>  20:37:08: Selecting the second network(channel B) and verifing the correct frequency transmission over CAN ...
+
+<br>  20:39:09: ERROR: A Display Connectivity message was not transmitted over CAN
+        
+<br><br><br><p4>THE EXTENDED LOG FOR ERROR TEST </p4><p4>3</p4><p4> IS : </p4><br><a name="testshortcut3"></a><a href="#">Go to top of page</a><br> 
+          
+Running SubTest #3: Select Channel C Network And Verify Transmission Over CAN ...
+
+<br>  20:39:10: Selecting the third network(channel C) and verifing the correct frequency transmission over CAN...
+
+<br>  20:41:11: ERROR: A Display Connectivity message was not transmitted over CAN
+        
+<br><br><br><p4>THE EXTENDED LOG FOR ERROR TEST </p4><p4>4</p4><p4> IS : </p4><br><a name="testshortcut4"></a><a href="#">Go to top of page</a><br> 
+          
+Running SubTest #4: Request Display Connectivity Message And Verify Transmission Over CAN ...
+
+<br>  20:41:12: Sending a request for the Display Connectivity CAN Message and verifing its receipt with data matching channel C...
+
+<br>  20:41:42: ERROR: A Display Connectivity message was not transmitted over CAN
+        
+<br><br><br><p4>THE EXTENDED LOG FOR ERROR TEST </p4><p4>5</p4><p4> IS : </p4><br><a name="testshortcut5"></a><a href="#">Go to top of page</a><br> 
+          
+Running SubTest #5: Disconnect Channel C And Verify Transmission Over CAN ...
+
+<br>  20:41:42: Disconnect the network connection and verify a 0 frequency center/width are transmitted over CAN...
+
+<br>  20:42:43: ERROR: A Display Connectivity message was not transmitted over CAN
+        
+<br><br><br><p4>THE EXTENDED LOG FOR ERROR TEST </p4><p4>6</p4><p4> IS : </p4><br><a name="testshortcut6"></a><a href="#">Go to top of page</a><br> 
+          
+Running SubTest #1: Datalogger Test For Model 8 RFT 4 IVT Wheel ACS Shortened Version ...
+
+<br>  20:58:50: Downloading LastLoadedSettings.xml for inspection ...
+
+<br>  20:58:53:    Current  config GUID:  00000000-0000-0000-0000-000000000000  [Default]
+
+<br>  20:58:53:    Required config GUID:  D00C89D6-2649-3547-FB69-2E4B1C3D4910  [8R_FT4_IVT_Wheel_ACS_ShortGranules]
+
+<br>  20:58:53: >>> Need to load a new config file for this test
+
+<br>  --------
+
+<br>  20:58:53: Sending DataloggerConfigurationSetup TM for settings-D00C89D6-2649-3547-FB69-2E4B1C3D4910-5MinuteGranules.xml ...
+
+<br>  20:59:06: >>> The DataloggerConfigurationSetup TM file transfer was successful!
+
+<br>  --------
+
+<br>  20:59:06: Waiting for Datalogger to detect and load the new config file ...
+
+<br>  20:59:08:    Datalogger detected the new settings file to load
+
+<br>  20:59:13:    Datalogger successfully loaded the new settings file
+
+<br>  20:59:27:    Datalogger starting logging granules
+
+<br>  20:59:27: >>> Datalogger is successfully using the new settings file
+
+<br>  --------
+
+<br>  20:59:28: Waiting until [21:03:00] to perform the following: IGNITION OFF
+
+<br>  21:03:00:    Turning Ignition OFF
+
+<br>  21:03:31:    Debounced Key State is OFF
+
+<br>  --------
+
+<br>  21:03:31: Waiting until [21:04:00] to perform the following: IGNITION ON + BEGIN CAN PLAYBACK
+
+<br>  21:04:00: CAN Playback [Start]
+
+<br>  21:04:00:    Turning Ignition ON
+
+<br>  21:04:00:    Waiting 4.95 minutes for the desired Granule Advance ...
+
+<br>  --------
+
+<br>  21:08:57: Waiting for 1 granule advance(s)
+
+<br>  21:09:03:    SE_MSG_GRANULE_ADVANCE detected
+
+<br>  21:09:03: CAN Playback [ End ]
+
+<br>  --------
+
+<br>  21:09:03: Waiting 10 seconds
+
+<br>  --------
+
+<br>  21:09:13: Downloading Granule
+
+<br>  21:09:14: Granule successfully downloaded to: C:\Jenkins\workspace\DISDATT 3G\Tests\DISDATT\BaseTestClass\..\SupportFiles\DataloggerTestSupportFiles\DownloadedGranules/20160524_205850_8R_FT4_IVT_Wheel_ACS_ShortGranules
+
+<br>  --------
+
+<br>  21:09:14: Inspecting granule contents for accuracy
+
+<br>  --------
+
+<br>  21:09:14:    Granule span (seconds) is within range [230,250] (Actual: 241.0 seconds)
+
+<br>  --------
+
+<br>  21:09:14:    AC.Comp.Switch.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 238:0
+
+<br>  21:09:14:    Data field #1 (238.0) is within tolerance of expected value (237.75 +/- 9.49736805647)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    ATC.Auto.Mode.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 0:238
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (238.0) is within tolerance of expected value (237.75 +/- 9.49736805647)
+
+<br>  --------
+
+<br>  21:09:14:    AutoTrac.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 0:238
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (238.0) is within tolerance of expected value (238.125 +/- 8.35164654425)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Coolant.Temp
+
+<br>  21:09:14:    Raw Data: 83.442
+
+<br>  21:09:14:    Data field #1 (83.442) is within tolerance of expected value (83.4605 +/- 0.834605)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Engine.Cooling.Fan.Speed.by.State
+
+<br>  21:09:14:    Raw Data: 676.436:0:0
+
+<br>  21:09:14:    Data field #1 (676.436) is within tolerance of expected value (676.3806 +/- 6.763806)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Engine.Load.Factor.by.State
+
+<br>  21:09:14:    Raw Data: 14.177:0:0
+
+<br>  21:09:14:    Data field #1 (14.177) is within tolerance of expected value (14.28395 +/- 0.205624803951)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Engine.Speed.by.State
+
+<br>  21:09:14:    Raw Data: 1199.868:0:0
+
+<br>  21:09:14:    Data field #1 (1199.868) is within tolerance of expected value (1199.99755 +/- 11.9999755)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Fuel.Rate
+
+<br>  21:09:14:    Raw Data: 6.246
+
+<br>  21:09:14:    Data field #1 (6.246) is within tolerance of expected value (6.25285 +/- 0.0625285)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Fuel.Rate.by.State
+
+<br>  21:09:14:    Raw Data: 6.246:0:0
+
+<br>  21:09:14:    Data field #1 (6.246) is within tolerance of expected value (6.25285 +/- 0.0625285)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Average.System.Voltage
+
+<br>  21:09:14:    Raw Data: 14.089
+
+<br>  21:09:14:    Data field #1 (14.089) is within tolerance of expected value (14.0892 +/- 0.140892)
+
+<br>  --------
+
+<br>  21:09:14:    Average.Trans.Oil.Temp
+
+<br>  21:09:14:    Raw Data: 34.000
+
+<br>  21:09:14:    Data field #1 (34.0) is within tolerance of expected value (34.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Avg.Eng.Inlet.Air.Temp
+
+<br>  21:09:14:    Raw Data: 20.606
+
+<br>  21:09:14:    Data field #1 (20.606) is within tolerance of expected value (20.59315 +/- 0.2059315)
+
+<br>  --------
+
+<br>  21:09:14:    Avg.Inlet.Fuel.Pressure
+
+<br>  21:09:14:    Raw Data: 18.317
+
+<br>  21:09:14:    Data field #1 (18.317) is within tolerance of expected value (18.19795 +/- 0.309890238633)
+
+<br>  --------
+
+<br>  21:09:14:    Barometric.Press.Avg
+
+<br>  21:09:14:    Raw Data: 98.000
+
+<br>  21:09:14:    Data field #1 (98.0) is within tolerance of expected value (98.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Coolant.Temp.Histogram
+
+<br>  21:09:14:    Raw Data: 0:0:0:0:0:0:0:0:0:0:0:0:240:0:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #5 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #8 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #9 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #10 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #11 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #12 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #13 (240.0) is within tolerance of expected value (236.7 +/- 7.6)
+
+<br>  21:09:14:    Data field #14 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #15 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #16 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #17 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #18 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #19 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #20 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Cumulative.ETM.Time
+
+<br>  21:09:14:    Raw Data: 35017.0000000
+
+<br>  21:09:14:    Data field #1 (35017.0) is within tolerance of expected value (35017.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    DEF.Tank.Percentage.Level
+
+<br>  21:09:14:    Raw Data: 35.6000000
+
+<br>  21:09:14:    Data field #1 (35.6) is within tolerance of expected value (35.6 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    DEF.Tank.Temperature.Max
+
+<br>  21:09:14:    Raw Data: 19.000
+
+<br>  21:09:14:    Data field #1 (19.0) is within tolerance of expected value (19.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    DEF.Tank.Temperature.Min
+
+<br>  21:09:14:    Raw Data: 18.000
+
+<br>  21:09:14:    Data field #1 (18.0) is within tolerance of expected value (18.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Diff.Lock.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 0:238
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (238.0) is within tolerance of expected value (237.5 +/- 9.25202680498)
+
+<br>  --------
+
+<br>  21:09:14:    DPF.Active.Soot.Loading.Model
+
+<br>  21:09:14:    Raw Data: 1.0000000
+
+<br>  21:09:14:    Data field #1 (1.0) is within tolerance of expected value (1.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    DPF.Forced.Regen.State.On.Time
+
+<br>  21:09:14:    Raw Data: 237:0:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (237.0) is within tolerance of expected value (237.975 +/- 8.60174400921)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #5 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #8 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    DPF.Time.Since.Last.Active.Regen
+
+<br>  21:09:14:    Raw Data: 23045.000
+
+<br>  21:09:14:    Data field #1 (23045.0) is within tolerance of expected value (23045.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Eng.Air.Filter.Diff.Press.Avg
+
+<br>  21:09:14:    Raw Data: 0.388
+
+<br>  21:09:14:    Data field #1 (0.388) is within tolerance of expected value (0.387875 +/- 0.00659910707167)
+
+<br>  --------
+
+<br>  21:09:14:    Eng.Charge.Air.Press.Avg
+
+<br>  21:09:14:    Raw Data: 25.202
+
+<br>  21:09:14:    Data field #1 (25.202) is within tolerance of expected value (25.245625 +/- 0.25245625)
+
+<br>  --------
+
+<br>  21:09:14:    Eng.Intercooler.Out.Temp.Avg
+
+<br>  21:09:14:    Raw Data: 27.011
+
+<br>  21:09:14:    Data field #1 (27.011) is within tolerance of expected value (27.02095 +/- 0.2702095)
+
+<br>  --------
+
+<br>  21:09:14:    Eng.Intercooler.Out.Temp.Max
+
+<br>  21:09:14:    Raw Data: 28.250
+
+<br>  21:09:14:    Data field #1 (28.25) is within tolerance of expected value (28.25 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Eng.Turbo.Inlet.Air.Temp.Avg
+
+<br>  21:09:14:    Raw Data: 29.073
+
+<br>  21:09:14:    Data field #1 (29.073) is within tolerance of expected value (29.06305 +/- 0.2906305)
+
+<br>  --------
+
+<br>  21:09:14:    Engine.RPM.at.Power.0.10
+
+<br>  21:09:14:    Raw Data: 0:0:0:148:87:0:0:0:0:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (148.0) is within tolerance of expected value (134.025 +/- 21.752930837)
+
+<br>  21:09:14:    Data field #5 (87.0) is within tolerance of expected value (95.95 +/- 23.0121706929)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #8 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #9 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #10 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #11 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #12 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #13 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #14 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #15 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Engine.RPM.at.Power.10.20
+
+<br>  21:09:14:    Raw Data: 0:0:0:0:4:0:0:0:0:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (4.0 +/- 4.0)
+
+<br>  21:09:14:    Data field #5 (4.0) is within tolerance of expected value (3.0 +/- 3.0)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #8 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #9 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #10 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #11 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #12 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #13 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #14 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #15 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Exhaust.Temp.Max
+
+<br>  21:09:14:    Raw Data: 190.750
+
+<br>  21:09:14:    Data field #1 (190.75) is within tolerance of expected value (190.75 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Field.Cruise.On.Time
+
+<br>  21:09:14:    Raw Data: 0:239
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (239.0) is within tolerance of expected value (237.725 +/- 8.48469209813)
+
+<br>  --------
+
+<br>  21:09:14:    Field.Cruise.Selected.Engine.Speed
+
+<br>  21:09:14:    Raw Data: 2100.000
+
+<br>  21:09:14:    Data field #1 (2100.0) is within tolerance of expected value (2100.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Front.Hitch.Drop.Rate
+
+<br>  21:09:14:    Raw Data: 3.5000000
+
+<br>  21:09:14:    Data field #1 (3.5) is within tolerance of expected value (3.5 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Front.Hitch.Raise.Rate
+
+<br>  21:09:14:    Raw Data: 3.1000000
+
+<br>  21:09:14:    Data field #1 (3.1) is within tolerance of expected value (3.1 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Fuel.Tank.Level
+
+<br>  21:09:14:    Raw Data: 44.8000000
+
+<br>  21:09:14:    Data field #1 (44.8) is within tolerance of expected value (44.8 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Fuel.Temp.Avg
+
+<br>  21:09:14:    Raw Data: 32.058
+
+<br>  21:09:14:    Data field #1 (32.058) is within tolerance of expected value (32.04045 +/- 0.3204045)
+
+<br>  --------
+
+<br>  21:09:14:    Fuel.Temp.Max
+
+<br>  21:09:14:    Raw Data: 34.000
+
+<br>  21:09:14:    Data field #1 (34.0) is within tolerance of expected value (34.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    IPM.Power.Mode.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 0:238
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (238.0) is within tolerance of expected value (238.375 +/- 7.72981241687)
+
+<br>  --------
+
+<br>  21:09:14:    IVT.Auto.Mode.On.Time
+
+<br>  21:09:14:    Raw Data: 0:240
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (240.0) is within tolerance of expected value (238.625 +/- 7.35866835779)
+
+<br>  --------
+
+<br>  21:09:14:    Key.Switch.State.Time
+
+<br>  21:09:14:    Raw Data: 0:236:0:0
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (236.0) is within tolerance of expected value (237.275 +/- 7.69350375317)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Last.Engine.Hourmeter
+
+<br>  21:09:14:    Raw Data: 151.3000000
+
+<br>  21:09:14:    Data field #1 (151.3) is within tolerance of expected value (151.3 +/- 0.5)
+
+<br>  --------
+
+<br>  21:09:14:    Last.NOX.CONVERSION.EFFICIENCY
+
+<br>  21:09:14:    Raw Data: 11938.0000000
+
+<br>  21:09:14:    Data field #1 (11938.0) is within tolerance of expected value (11938.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Last.Soot.Level
+
+<br>  21:09:14:    Raw Data: 12.0000000
+
+<br>  21:09:14:    Data field #1 (12.0) is within tolerance of expected value (12.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Last.TAILPIPE.NOX
+
+<br>  21:09:14:    Raw Data: 59155.0000000
+
+<br>  21:09:14:    Data field #1 (59155.0) is within tolerance of expected value (59155.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Machine.State.Utilization
+
+<br>  21:09:14:    Raw Data: 240:0:0
+
+<br>  21:09:14:    Data field #1 (240.0) is within tolerance of expected value (238.625 +/- 7.72981241687)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Max.Air.Filter.Pressure
+
+<br>  21:09:14:    Raw Data: 0.500
+
+<br>  21:09:14:    ERROR: Max.Air.Filter.Pressure[field #1] ExpectAlmostEqual in Tests.BaseClasses.DataloggerTestBase, line 173 failed; Expected: 0.55, Actual: 0.5, Tolerance: 0.0.
+
+<br>  --------
+
+<br>  21:09:14:    Max.Coolant.Temp
+
+<br>  21:09:14:    Raw Data: 85.000
+
+<br>  21:09:14:    Data field #1 (85.0) is within tolerance of expected value (85.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Max.Trans.Oil.Temp
+
+<br>  21:09:14:    Raw Data: 34.000
+
+<br>  21:09:14:    Data field #1 (34.0) is within tolerance of expected value (34.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    MFWD.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 0:237
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (237.0) is within tolerance of expected value (237.35 +/- 8.74299719776)
+
+<br>  --------
+
+<br>  21:09:14:    Min.Coolant.Temp
+
+<br>  21:09:14:    Raw Data: 82.000
+
+<br>  21:09:14:    Data field #1 (82.0) is within tolerance of expected value (82.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Min.Time.Remaining.Before.Inducement
+
+<br>  21:09:14:    Raw Data: 64000.000
+
+<br>  21:09:14:    Data field #1 (64000.0) is within tolerance of expected value (64000.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Min.Transmission.Oil.Temperature
+
+<br>  21:09:14:    Raw Data: 34.000
+
+<br>  21:09:14:    Data field #1 (34.0) is within tolerance of expected value (34.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Number.Aborted.Regen
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Number.Complete.Regen
+
+<br>  21:09:14:    Raw Data: 13.0000000
+
+<br>  21:09:14:    Data field #1 (13.0) is within tolerance of expected value (13.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    NUMBER.OF.NOX.CE.REGENS
+
+<br>  21:09:14:    Raw Data: 2.000
+
+<br>  21:09:14:    Data field #1 (2.0) is within tolerance of expected value (2.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Period.Fuel.Consumed
+
+<br>  21:09:14:    Raw Data: 1496.7
+
+<br>  21:09:14:    Data field #1 (1496.7) is within tolerance of expected value (1498.055 +/- 46.7286914005)
+
+<br>  --------
+
+<br>  21:09:14:    Rear.Hitch.Drop.Rate
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Rear.Hitch.Operating.Depth
+
+<br>  21:09:14:    Raw Data: 38.0019000
+
+<br>  21:09:14:    Data field #1 (38.0019) is within tolerance of expected value (38.0019 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Rear.Hitch.Raise.Rate
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Rear.Hitch.Upper.Set.Limit
+
+<br>  21:09:14:    Raw Data: 100.0000000
+
+<br>  21:09:14:    Data field #1 (100.0) is within tolerance of expected value (100.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Rear.PTO.On.Off.Time
+
+<br>  21:09:14:    Raw Data: 0:238
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (238.0) is within tolerance of expected value (237.925 +/- 7.5039989339)
+
+<br>  --------
+
+<br>  21:09:14:    Regen.Inhibit.Switch.On.Time
+
+<br>  21:09:14:    Raw Data: 236:0:0
+
+<br>  21:09:14:    Data field #1 (236.0) is within tolerance of expected value (237.0 +/- 10.1587400794)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCR.Inducement.Monitor
+
+<br>  21:09:14:    Raw Data: 238:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (238.0) is within tolerance of expected value (237.6 +/- 9.78979060042)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #5 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV1.Detent.Time.C
+
+<br>  21:09:14:    Raw Data: 3.0000000
+
+<br>  21:09:14:    Data field #1 (3.0) is within tolerance of expected value (3.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV1.Flow.Rate.C
+
+<br>  21:09:14:    Raw Data: 9.4000000
+
+<br>  21:09:14:    Data field #1 (9.4) is within tolerance of expected value (9.4 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV1.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 9.4000000
+
+<br>  21:09:14:    Data field #1 (9.4) is within tolerance of expected value (9.4 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV14.Detent.Time
+
+<br>  21:09:14:    Raw Data: 4.0000000
+
+<br>  21:09:14:    Data field #1 (4.0) is within tolerance of expected value (4.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV14.Extend.Flow
+
+<br>  21:09:14:    Raw Data: 2.4000000
+
+<br>  21:09:14:    Data field #1 (2.4) is within tolerance of expected value (2.4 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV14.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 2.4000000
+
+<br>  21:09:14:    Data field #1 (2.4) is within tolerance of expected value (2.4 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV15.Detent.Time
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV15.Extend.Flow
+
+<br>  21:09:14:    Raw Data: 0.8000000
+
+<br>  21:09:14:    Data field #1 (0.8) is within tolerance of expected value (0.8 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV15.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 0.8000000
+
+<br>  21:09:14:    Data field #1 (0.8) is within tolerance of expected value (0.8 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV2.Detent.Time.C
+
+<br>  21:09:14:    Raw Data: 251.0000000
+
+<br>  21:09:14:    Data field #1 (251.0) is within tolerance of expected value (251.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV2.Flow.Rate.C
+
+<br>  21:09:14:    Raw Data: 10.0000000
+
+<br>  21:09:14:    Data field #1 (10.0) is within tolerance of expected value (10.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV2.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 10.0000000
+
+<br>  21:09:14:    Data field #1 (10.0) is within tolerance of expected value (10.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV3.Detent.Time.C
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV3.Flow.Rate.C
+
+<br>  21:09:14:    Raw Data: 7.8000000
+
+<br>  21:09:14:    Data field #1 (7.8) is within tolerance of expected value (7.8 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV3.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 7.8000000
+
+<br>  21:09:14:    Data field #1 (7.8) is within tolerance of expected value (7.8 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV4.Detent.Time.C
+
+<br>  21:09:14:    Raw Data: 6.0000000
+
+<br>  21:09:14:    Data field #1 (6.0) is within tolerance of expected value (6.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV4.Flow.Rate.C
+
+<br>  21:09:14:    Raw Data: 3.6000000
+
+<br>  21:09:14:    Data field #1 (3.6) is within tolerance of expected value (3.6 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV4.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 3.6000000
+
+<br>  21:09:14:    Data field #1 (3.6) is within tolerance of expected value (3.6 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV5.Detent.Time.C
+
+<br>  21:09:14:    Raw Data: 2.0000000
+
+<br>  21:09:14:    Data field #1 (2.0) is within tolerance of expected value (2.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV5.Flow.Rate.C
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SCV5.Retract.Flow
+
+<br>  21:09:14:    Raw Data: 5.0000000
+
+<br>  21:09:14:    Data field #1 (5.0) is within tolerance of expected value (5.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SF.Pitch
+
+<br>  21:09:14:    Raw Data: 0:0:0:0:0:0:0:0:0:0:0:240:0:0:0:0:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #5 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #8 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #9 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #10 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #11 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #12 (240.0) is within tolerance of expected value (237.45 +/- 7.42697785105)
+
+<br>  21:09:14:    Data field #13 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #14 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #15 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #16 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #17 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #18 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #19 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #20 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #21 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #22 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    SF.Pitch.Max
+
+<br>  21:09:14:    Raw Data: 0.641
+
+<br>  21:09:14:    Data field #1 (0.641) is within tolerance of expected value (0.641 +/- 0.01)
+
+<br>  --------
+
+<br>  21:09:14:    SF.Pitch.Min
+
+<br>  21:09:14:    Raw Data: 0.500
+
+<br>  21:09:14:    Data field #1 (0.5) is within tolerance of expected value (0.501 +/- 0.0105830052443)
+
+<br>  --------
+
+<br>  21:09:14:    Time.in.DPF.State
+
+<br>  21:09:14:    Raw Data: 237:0:0:0:0:0:0:0
+
+<br>  21:09:14:    Data field #1 (237.0) is within tolerance of expected value (237.975 +/- 8.60174400921)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #4 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #5 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #6 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #7 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #8 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Total.DEF.Used
+
+<br>  21:09:14:    Raw Data: 39.0000000
+
+<br>  21:09:14:    Data field #1 (39.0) is within tolerance of expected value (39.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Total.Fuel.by.Machine.State
+
+<br>  21:09:14:    Raw Data: 1496.7:0:0
+
+<br>  21:09:14:    Data field #1 (1496.7) is within tolerance of expected value (1498.055 +/- 46.7286914005)
+
+<br>  21:09:14:    Data field #2 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #3 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Total.Fuel.Used
+
+<br>  21:09:14:    Raw Data: 2337.5000000
+
+<br>  21:09:14:    Data field #1 (2337.5) is within tolerance of expected value (2337.5 +/- 0.0)
+
+<br>  --------
+
+<br>  21:09:14:    Trans.ECO.PWR.On.Off.Time.Stationary
+
+<br>  21:09:14:    Raw Data: 0:240
+
+<br>  21:09:14:    Data field #1 (0.0) is within tolerance of expected value (0.0 +/- 0.0)
+
+<br>  21:09:14:    Data field #2 (240.0) is within tolerance of expected value (237.85 +/- 8.78862901709)
+
+<br>  --------
+
+<br>  21:09:14:    ERROR: Verification failed for 1 of 208 checked data fields
+
+<br>  --------
+        
+<br><br><br><a name="bop"></a><h2>Go back to the previous page <br>
+</h2>
+<a href="xml2html.html#leave">Go back</a><br><br>

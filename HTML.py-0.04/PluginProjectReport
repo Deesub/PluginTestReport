@@ -1,0 +1,90 @@
+
+Author : Dhruv Subramanian
+
+Project : To enhance readability and data available in DISDATT test results reported on Jenkins. Takes in an xml document which contains the results of a test suite , and then it parses the xml (ElementTree Library in python). Once it's parsed we can create HTML Tables for tabulated results, graphs,Linkable Results.
+
+		-> Tabular Results : Creates tables for whole test suite, percentage distribution of results, error results 
+		-> Graph results : Creates a pie chart to show the distribution of passed,skipped and failed tests. Uses library Charts.js to enhance the graphical representation
+		-> Anchor Links : Creates links to locations within and on other pages. Good replacement for dropdown links and boxes on the page. The number of quick links for navigation are used to jump from point to point on a page.
+
+Important files contained : 
+
+1)xmlparser.py - generates the main page of the test results.
+
+2)error.py - generates the page of error results and additonal information about these failing tests.
+
+3)myscript.js - this file contains most of the functions I use to manipulate the data I have parsed from the xml.
+
+4)mystyle.css - this file contains the necessaay styles for different elements of the plugin.  
+
+5)HTML.py - it is required as it has functions which can be used to easily create tables and style them (Open source library : Philippe Lagadec)
+
+
+----------Functions contained within the files: 
+
+1) xmlparser.py :a) msgcall([]) - takes in an array of messages and then writes them to the file in a particular order.
+
+				b) tablecreate() - writes a created table to the file.
+
+
+2) error.py :	a) msgcall([]) - takes in an array of messages and then writes them to the file in a particular order.
+
+				b) tablecreate() - writes a created table to the file.
+
+				c) logreport(extended,extended2,messageBegin,messageEnd,linktotop)  - splits the error log into subtest logs and creates links between the the individual subtest logs and the top of the page. This enhances quicker navigation to the enhanced logs of a particular failed result, instead of having to scroll down through everything.
+
+				d) addrows(table,msgbegin,msgmid,msgend) - adds rows to the table, including the columns for navigation links that will take you to the error subtest enhanced log with a single click.
+
+
+3)myscript.js : a) unique(arr) - takes an array and ensures there is no duplication, if there is, then it's removed from the array and a new array is returned.
+
+				b) myfunction() - this takes the main table and styles it based on whether it is a passed,failed or skipped test. This allows us to differentiate tests based on their results.
+
+				c) mypagefunction() - this creates the styles for the error table tests on the error page of the test report. (ie, the second page)
+
+				d) mycreateskiptbl() - it creates the table of skipped tests, which is redundant so it isn't used, but can be if needed.	
+
+				e) createdropdowns() - creates a list of dropdown links within the page to navigate easily to enhanced logs.
+
+				f) errordrop() - used to create a dropdown menu of error tests and their subtests that fail. It is pretty redundant , hence it isn't used, but it still can be if necessary.
+
+				g) insertheader() - used to manipulate the created skiptable, but since the skip table isn't being displayed, this function isn't needed for now, but will be called if the skip results table is needed for some reason.
+
+				h) createpiechart() - this function is used to create the pie chart to enhance the graphical representation of results.	  
+
+---------- end of function def				
+
+
+----------Messages contained within files
+
+1) xmlparser.py :a) message - defines the styles that the elements will have by including the mystyles.css file.
+
+				b) message0 - defines newlines in between elements to minimize crowding and enhance readability.
+
+				c) message1 - used to define the main table and call myfunction().
+
+				d) message2 - used to call the createpiechart() function.
+
+				e) message3 - used to call the creatdropdowns() function, which defines the enhanced linkable results of the skipped tests.
+
+				f) message4 - used to create anchor links to navigate to the next page of errors.
+
+
+2) error.py :	a) message0 - defines newlines in between elements to minimize crowding and enhance readability.
+
+				b) message1 - used to call the mypagefunction() function.
+
+				c) message3 - defines the styles that the elements will have by including the mystyles.css file.
+
+				d) message4 - used to create anchor links to navigate to the previous main page.
+
+				e) message5 - used to create anchor links to navigate to the bottom of the page of errors.
+
+---------- end of message def	
+
+
+Command Line Usage : python pythonscript1 testxml	,	pythonscript1 - xmlparser.py
+					 python pythonscript2 testxml	,	pythonscript2 - error.py
+
+
+Running both these commands will compile and create two html reports, xml2html.html and errorpage.html. Either page can be opened and once opened there are navigation links to the other page, making accessibility a non-concern.
